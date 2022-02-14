@@ -10,7 +10,7 @@
     --text-color: #E7DFDD;
 }
 body {
-    background-color: #17B486;
+    overflow-y: hidden;
 }
 
 * {
@@ -56,6 +56,10 @@ a.btn {
 
 textarea {
     resize: none !important;
+}
+
+hr {
+    margin: 40px 0 !important;
 }
 
 /* NAVBAR SECTION */
@@ -243,6 +247,11 @@ div.glitch h1{
 /* CONTACT SECTION */
 .contact {
     background: var(--main-bg-color);
-    height: 550px;
+    height: 750px;
     /* background: linear-gradient(0deg, var(--main-bg-color) 0%, var(--main-bg-color) 87%, rgba(255,255,255,1) 100%); */
+}
+
+.svg-white {
+    filter: invert();
+    width: 50px;
 }
