@@ -1,0 +1,248 @@
+/* GENERAL SECTION */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
+:root {
+    --main-bg-color: #0E0B16;
+    --secondary-bg-color: #4717F6;
+    /* --tertiary-bg-color: #E7DFDD; */
+    --tertiary-bg-color: #0E0B16;
+    --text-color: #E7DFDD;
+}
+body {
+    background-color: #17B486;
+}
+
+* {
+    color: var(--text-color);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+h1 {
+    color: var(--secondary-bg-color) !important;
+    font-weight: 900 !important;
+}
+
+h2 {
+    /* letter-spacing: 4px; */
+    color: var(--secondary-bg-color) !important;
+    font-weight: 900 !important;
+}
+
+html,
+body {
+    max-width: 100%;
+    /* height: 100%; */
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+a.btn {
+    background: var(--secondary-bg-color) !important;
+}
+
+.section-title {
+    background: url('./assets/icons/bg-section.png') center no-repeat;
+    margin: 20px 0;
+}
+
+textarea {
+    resize: none !important;
+}
+
+/* NAVBAR SECTION */
+.social-media img {
+    width: 50px;
+    filter: invert();
+    margin: 0 5px;
+}
+
+#nav-options {
+    flex-grow: 0 !important;
+}
+
+nav {
+    text-transform: uppercase;
+    background: var(--main-bg-color) !important;
+    height: 100px;
+    color: var(--text-color) !important;
+}
+
+nav a {
+    color: var(--text-color) !important;
+}
+
+ul.navbar-nav li {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+ul.navbar-nav li.underline:after {
+    content: '';
+    width: 0;
+    height: 1px;
+    display: block;
+    background: url('./assets/icons/substract.png') center no-repeat;
+    filter: invert();
+    transition: width 0.5s ease-out;
+}
+
+li.underline:hover:after {
+    width: 100% !important;
+}
+
+li.underline.active:after {
+    width: 100% !important;
+}
+
+/* ABOUT ME SECTION */
+.about {
+    margin-bottom: 0px;
+    height: 500px;
+    /* background: var(--main-bg-color); */
+    background: linear-gradient(180deg, var(--main-bg-color) 0%, var(--main-bg-color) 87%, rgba(255,255,255,1) 100%);
+}
+.profile-picture img {
+    /* width: 100%; */
+    height: 100%;
+    filter: grayscale(1);
+    border-radius: 2%;
+}
+
+div.glitch{
+	position: relative;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	transform: translateY(-50%);
+}
+div.glitch h1{
+    font-size: 3rem;
+    color: var(--text-color) !important;
+    text-align: center;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+.glitch-window{
+	position: absolute;
+	top: 0;
+	left: -2px;
+	width: 100%;
+	color: var(--text-color) !important;
+	text-shadow: 2px 0 var(--secondary-bg-color), -1px 0 yellow, -2px 0 green;
+	overflow: hidden;
+	animation: crt-me 2500ms infinite linear alternate-reverse;
+}
+
+@keyframes crt-me {
+	 0% {
+        clip: rect(31px, 9999px, 94px, 0)
+    }
+    10% {
+        clip: rect(112px, 9999px, 76px, 0)
+    }
+    20% {
+        clip: rect(85px, 9999px, 77px, 0)
+    }
+    30% {
+        clip: rect(27px, 9999px, 97px, 0)
+    }
+    40% {
+        clip: rect(64px, 9999px, 98px, 0)
+    }
+    50% {
+        clip: rect(61px, 9999px, 85px, 0)
+    }
+    60% {
+        clip: rect(99px, 9999px, 114px, 0)
+    }
+    70% {
+        clip: rect(34px, 9999px, 115px, 0)
+    }
+    80% {
+        clip: rect(98px, 9999px, 129px, 0)
+    }
+    90% {
+        clip: rect(43px, 9999px, 96px, 0)
+    }
+    100% {
+        clip: rect(82px, 9999px, 64px, 0)
+    }
+}
+
+#about-description img {
+    width: 35px;
+    margin: 0 10px;
+}
+
+#about-description {
+    margin-top: 45px;
+}
+
+/* SKILLS SECTION */
+.skills {
+    background: #fff !important;
+    color: var(--tertiary-bg-color) !important;
+    padding: 35px;
+}
+
+.skill-name {
+    color: var(--tertiary-bg-color) !important;
+    text-transform: capitalize;
+}
+
+#skills-list div img {
+    width: 100px;
+    margin: auto auto !important;
+}
+
+#skills-list {
+    height: 140px !important;
+    margin: 10px 50px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: var(--tertiary-bg-color) !important;
+}
+
+.card-text, .card-title {
+    color: var(--tertiary-bg-color) !important;
+}
+
+.list-group-item.active {
+    background: var(--secondary-bg-color) !important;
+    border-color: var(--secondary-bg-color) !important;
+}
+
+/* PORTFOLIO SECTION */
+.portfolio {
+    margin-bottom: 25px;
+}
+
+.portfolio-carrousel {
+    width: 70%;
+}
+
+.carousel-control-next {
+    filter: invert();
+}
+
+.carousel-control-prev  {
+    filter: invert();
+}
+
+/* CONTACT SECTION */
+.contact {
+    background: var(--main-bg-color);
+    height: 550px;
+    /* background: linear-gradient(0deg, var(--main-bg-color) 0%, var(--main-bg-color) 87%, rgba(255,255,255,1) 100%); */
+}
