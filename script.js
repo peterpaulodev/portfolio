@@ -53,6 +53,7 @@ function setSkillsIcons(params) {
         'css',
         'javascript',
         'jquery',
+        'vue',
         'git',
         'github',
         'mysql',
