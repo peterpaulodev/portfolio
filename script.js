@@ -94,7 +94,7 @@ function setSkillsIcons(params) {
 }
 
 function whatsSendMessage() {
-    let num = `16992338091`
+    let num = `+5516992338091`
     let msg = `Olá, Peter! Eu encontrei o seu contato aqui no seu portfólio e gostaria de saber:`
 
     window.open(`https://wa.me/${num}?text=${msg}`, '_blank');
@@ -132,7 +132,7 @@ function sendEmailContact() {
     let phone = $('#phone').val()
     let name = $('#name').val()
     let email = $('#email').val()
-    let message = $('#email').val()
+    let message = $('#message').val()
 
     let body = `Email: ${email}
                 Nome: ${name}
