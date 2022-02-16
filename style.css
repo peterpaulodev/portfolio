@@ -9,15 +9,13 @@
     --tertiary-bg-color: #0E0B16;
     --text-color: #E7DFDD;
 }
-body {
-    overflow-y: hidden;
-}
 
 * {
     color: var(--text-color);
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
 }
+
 h1 {
     color: var(--secondary-bg-color) !important;
     font-weight: 900 !important;
@@ -29,10 +27,13 @@ h2 {
     font-weight: 900 !important;
 }
 
+body {
+    overflow: hidden;
+}
+
 html,
 body {
     max-width: 100%;
-    /* height: 100%; */
     overflow-x: hidden;
 }
 
@@ -107,30 +108,36 @@ li.underline.active:after {
     width: 100% !important;
 }
 
+.nav-button {
+    border: 2px solid #929196 !important;
+}
+
 /* ABOUT ME SECTION */
 .about {
     background-color: #0E0B16;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23271F3E' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23271F3E'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
     margin-bottom: 0px;
-    height: 500px;
+    overflow: auto;
     /* background: var(--main-bg-color); */
     /* background: linear-gradient(180deg, var(--main-bg-color) 0%, var(--main-bg-color) 87%, rgba(255,255,255,1) 100%); */
 }
+
 .profile-picture img {
     /* width: 100%; */
-    height: 100%;
+    height: 450px;
     filter: grayscale(1);
     border-radius: 2%;
 }
 
-div.glitch{
-	position: relative;
-	top: 50%;
-	left: 0;
-	width: 100%;
-	transform: translateY(-50%);
+div.glitch {
+    position: relative;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
 }
-div.glitch h1{
+
+div.glitch h1 {
     font-size: 3rem;
     color: var(--text-color) !important;
     text-align: center;
@@ -138,48 +145,59 @@ div.glitch h1{
     text-transform: uppercase;
     font-weight: 1000;
 }
-.glitch-window{
-	position: absolute;
-	top: 0;
-	left: -2px;
-	width: 100%;
-	color: var(--text-color) !important;
-	text-shadow: 2px 0 var(--secondary-bg-color), -1px 0 yellow, -2px 0 green;
-	overflow: hidden;
-	animation: crt-me 2500ms infinite linear alternate-reverse;
+
+.glitch-window {
+    position: absolute;
+    top: 0;
+    left: -2px;
+    width: 100%;
+    color: var(--text-color) !important;
+    text-shadow: 2px 0 var(--secondary-bg-color), -1px 0 yellow, -2px 0 green;
+    overflow: hidden;
+    animation: crt-me 2500ms infinite linear alternate-reverse;
 }
 
 @keyframes crt-me {
-	 0% {
+    0% {
         clip: rect(31px, 9999px, 94px, 0)
     }
+
     10% {
         clip: rect(112px, 9999px, 76px, 0)
     }
+
     20% {
         clip: rect(85px, 9999px, 77px, 0)
     }
+
     30% {
         clip: rect(27px, 9999px, 97px, 0)
     }
+
     40% {
         clip: rect(64px, 9999px, 98px, 0)
     }
+
     50% {
         clip: rect(61px, 9999px, 85px, 0)
     }
+
     60% {
         clip: rect(99px, 9999px, 114px, 0)
     }
+
     70% {
         clip: rect(34px, 9999px, 115px, 0)
     }
+
     80% {
         clip: rect(98px, 9999px, 129px, 0)
     }
+
     90% {
         clip: rect(43px, 9999px, 96px, 0)
     }
+
     100% {
         clip: rect(82px, 9999px, 64px, 0)
     }
@@ -216,11 +234,13 @@ div.glitch h1{
     margin: 10px 50px;
 }
 
-.slick-prev:before, .slick-next:before {
+.slick-prev:before,
+.slick-next:before {
     color: var(--tertiary-bg-color) !important;
 }
 
-.card-text, .card-title {
+.card-text,
+.card-title {
     color: var(--tertiary-bg-color) !important;
 }
 
@@ -234,29 +254,43 @@ div.glitch h1{
     margin-bottom: 25px;
 }
 
-.portfolio-carrousel {
-    width: 70%;
+.carousel-caption {
+    background-color: rgba(var(--bs-dark-rgb), 0.7)!important;
 }
 
-.carousel-control-next {
-    filter: invert();
+.carousel-caption p {
+    color: white !important;
 }
 
-.carousel-control-prev  {
-    filter: invert();
+.carousel-caption h5 {
+    color: white !important;
 }
 
 /* CONTACT SECTION */
 .contact {
-    background-color: #0E0B16;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23271F3E' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23271F3E'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
-    /* background: var(--main-bg-color); */
-    height: 750px;
     border-top: 5px solid var(--secondary-bg-color);
-    /* background: linear-gradient(0deg, var(--main-bg-color) 0%, var(--main-bg-color) 87%, rgba(255,255,255,1) 100%); */
+    background-color: var(--main-bg-color);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23271F3E' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23271F3E'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 .svg-white {
     filter: invert();
     width: 50px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 576px) {
+    .text-center-mobile {
+        text-align: center !important;
+    }
+
+    #skills-list {
+        height: 220px !important;
+    }
+}
+
+@media (max-width: 992px){
+    nav {
+        height: auto;
+    }
 }

@@ -32,10 +32,16 @@ $(document).ready(function () {
                     slidesToScroll: 1
                 }
             }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
         ]
+    })
+    $('.carousel-caption').hide()
+
+    $('.portfolio-carrousel').mouseover(function() {
+        $('.carousel-caption').fadeIn()
+    })
+
+    $('.portfolio-carrousel').mouseleave(function() {
+        $('.carousel-caption').fadeOut()
     })
 });
 
@@ -118,7 +124,7 @@ function validateContactForm() {
 
 function sendEmailContact() {
     if (!validateContactForm()) {
-        Alert($('#emailAlert'), 'Por favor, preencha todos os campos obrigatórios.', 'warning')
+        Alert($('#email-alert'), 'Por favor, preencha todos os campos obrigatórios.', 'warning')
         return
     }
 
