@@ -287,6 +287,14 @@ div.glitch h1 {
     #skills-list {
         height: 220px !important;
     }
+
+    .portfolio {
+        display: none !important;
+    }
+
+    #portfolio-line {
+        display: none !important;
+    }
 }
 
 @media (max-width: 992px){
