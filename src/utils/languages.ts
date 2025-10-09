@@ -110,8 +110,40 @@ export const languages: Record<string, Language> = {
     name: "Python",
     iconName: "python",
   },
+  react: {
+    name: "React",
+    iconName: "react",
+  },
+  aws: {
+    name: "AWS",
+    iconName: "aws",
+  },
+  postgresql: {
+    name: "PostgreSQL",
+    iconName: "postgresql",
+  },
+  graphql: {
+    name: "GraphQL",
+    iconName: "graphql",
+  },
+  jest: {
+    name: "Jest",
+    iconName: "jest",
+  },
+  next: {
+    name: "Next.js",
+    iconName: "next",
+  },
+  vitest: {
+    name: "Vitest",
+    iconName: "vitest",
+  },
+  vue: {
+    name: "Vue.js",
+    iconName: "vue",
+  },
 };
 
 export const getLanguage = (lang: string): Language => {
   return languages[lang] || languages.html;
-}; 
+};
