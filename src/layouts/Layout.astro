@@ -4,21 +4,21 @@ import Header from "../components/layout/Header.astro";
 import Footer from "../components/layout/Footer.astro";
 import  SpeedInsights  from "@vercel/speed-insights/astro"
 const {
-  pageTitle = "NeonMint by EFEELE 🚀",
-  description = "Welcome to NeonMint by EFEELE, where I develop software and share knowledge.",
+  pageTitle = "Peterson Almeida | Portfólio",
+  description = "Welcome to Peterson Almeida, where I develop software and share knowledge.",
   ogimage = {
     url: "/images/imagedefault.webp",
-    alt: "Default image of EFEELE",
+    alt: "Default image of Peterson Almeida",
   },
 } = Astro.props;
 
 const siteUrl = new URL(Astro.url).origin;
 const SEO = {
-  sitename: "NeonMint by EFEELE🚀",
+  sitename: "Peterson Almeida | Portfólio",
   url: siteUrl,
-  locale: "en_US",
-  author: "Fernando Lopez | EFEELE",
-  twitter: "@efeeledev",
+  locale: "pt_BR",
+  author: "Peterson Almeida",
+  twitter: "@petersonalmeida",
 };
 
 
@@ -56,7 +56,7 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={SEO.sitename} />
     <meta property="og:locale" content={SEO.locale} />
-    
+
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -65,12 +65,12 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
     <meta name="twitter:image" content={twitterimage} />
     <meta name="twitter:image:alt" content={ogimage.alt} />
     <meta name="twitter:site" content={SEO.twitter} />
-  
+
     <meta name="theme-color" content="#0E0E11"/>
 
     <!-- Sitemap -->
     <link rel="sitemap" href="/sitemap-index.xml" />
-    
+
   </head>
   <body class="overflow-x-hidden">
     <SpeedInsights/>
