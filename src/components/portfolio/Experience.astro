@@ -5,18 +5,55 @@ import { Icon } from "astro-icon/components";
 
 const EXPERIENCE = [
   {
-    date: "2021 - Present",
-    title: "Software Development Coordinator",
-    company: "EFEELE.DEV",
-    description:
-      "I lead the planning, development, and implementation of software projects to optimize administrative processes and improve digital services. I manage and provide support for technology platforms, coordinating development teams to deliver efficient solutions.",
+    date: "Abr 2024 - Presente",
+    title: "Engenheiro de Software II",
+    company: "Azion",
+    description: `
+      <ul>
+        <li>Projetou e entregou aplicações React escaláveis usando Hooks e Context API, aumentando a escalabilidade em 25% e reduzindo os tempos de carregamento de página em 15%.</li>
+        <li>Liderou mais de 30 revisões de código mensais, melhorando a manutenibilidade e aumentando a cobertura de testes de 65% para 85%, reduzindo bugs em produção em 40%.</li>
+        <li>Construiu e manteve sistemas de componentes React reutilizáveis, acelerando a entrega de funcionalidades em 20%.</li>
+        <li>Colaborou com engenheiros de backend para otimizar contratos de API, reduzindo o tempo médio de resposta em 18%.</li>
+        <li>Conduziu cerimônias ágeis, garantindo que 100% dos compromissos da sprint fossem entregues ao longo de 6 meses consecutivos.</li>
+      </ul>
+    `,
   },
   {
-    date: "2019 - 2020",
-    title: "Software Development Coordinator",
-    company: "EFEELE.DEV",
-    description:
-      "I lead the planning, development, and implementation of software projects to optimize administrative processes and improve digital services. I manage and provide support for technology platforms, coordinating development teams to deliver efficient solutions.",
+    date: "Set 2022 - Set 2024",
+    title: "Engenheiro de Software I & Engenheiro de Front-End",
+    company: "Azion",
+    description: `
+      <ul>
+        <li>Desenvolveu e manteve mais de 15 interfaces React de grande escala com TypeScript e TailwindCSS, melhorando a responsividade da aplicação em 20%.</li>
+        <li>Criou uma biblioteca de componentes reutilizável que evoluiu para um sistema de design, reduzindo o tempo de desenvolvimento em 25%.</li>
+        <li>Automatizou fluxos de trabalho de CI/CD com GitHub Actions, reduzindo o tempo de implantação de 45 minutos para menos de 10 minutos.</li>
+        <li>Implementou microsserviços Node.js para suportar funcionalidades do front-end, reduzindo a latência da API em 25%.</li>
+      </ul>
+    `,
+  },
+  {
+    date: "Jul 2021 - Set 2022",
+    title: "Desenvolvedor Full-Stack",
+    company: "VOOOZER",
+    description: `
+      <ul>
+        <li>Construiu uma nova plataforma de streaming de áudio com Vue.js e Python/Django, atendendo mais de 100 mil usuários mensais com 99,9% de uptime.</li>
+        <li>Integrou mais de 5 APIs de terceiros (analytics, pagamentos) e melhorou a experiência do usuário.</li>
+        <li>Gerenciou servidores na AWS e otimizou a infraestrutura, melhorando a performance em 30%.</li>
+      </ul>
+    `,
+  },
+  {
+    date: "Abr 2019 - Jul 2021",
+    title: "Desenvolvedor Full-Stack",
+    company: "Sifat Sistemas",
+    description: `
+      <ul>
+        <li>Projetou e entregou soluções web completas com Vue.js e PHP/Laravel, reduzindo o tempo de onboarding de clientes em 40%.</li>
+        <li>Aplicou Scrum/Kanban para gerenciar múltiplos projetos, atingindo 95% dos prazos.</li>
+        <li>Orientou desenvolvedores juniores em desenvolvimento orientado a componentes e melhores práticas de Git, melhorando a eficiência de merges em 50%.</li>
+      </ul>
+    `,
   },
 ];
 ---
@@ -25,7 +62,7 @@ const EXPERIENCE = [
   <div class="flex flex-col pt-8 max-w-4xl mx-auto">
     <div class="flex gap-4 items-center justify-center">
       <Icon class="text-3xl dark:text-white text-blacktext" name="briefcase" />
-      <Heading text="Work" textGradient="Experience" level={2} />
+      <Heading text="Experiência" textGradient="Profissional" level={2} />
     </div>
 
     <div class="relative max-md:mt-0 mt-8" aria-label="Professional experience">
