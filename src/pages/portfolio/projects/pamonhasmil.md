@@ -2,7 +2,7 @@
 layout:  /src/layouts/ProjectLayout.astro
 title: 'Pamonhas Mil'
 pubDate: 2025-04-05
-description: 'Projeto de site estático de alta performance com Astro e Tailwind CSS para a Pamonhas MIL, uma pamonharia tradicional.'
+description: '🌽 Projeto de site estático de alta performance focado em um SEO otimizado, com Astro e Tailwind CSS para a Pamonhas MIL, uma pamonharia tradicional.'
 languages: ["astro", "tailwind", "javascript","vercel"]
 image:
   url: "/images/projects/pamonhasmil.png"

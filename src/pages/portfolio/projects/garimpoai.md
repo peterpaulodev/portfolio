@@ -2,10 +2,10 @@
 layout:  /src/layouts/ProjectLayout.astro
 title: 'Garimpo.AI'
 pubDate: 2025-10-01
-description: 'Ferramenta de precificação inteligente para brechós que utiliza IA para sugerir preços justos baseados em tendências de mercado, tipo e estado da peça.'
+description: '👔 Garimpo AI é uma ferramenta de precificação inteligente para brechós que utiliza IA para sugerir preços justos baseados em tendências de mercado, tipo e estado da peça.'
 languages: ["next", "ts", "node", "javascript", "vercel"]
 image:
-  url: "/images/projects/garimpoai.jpg"
+  url: "/images/projects/garimpoai.png"
   alt: "Thumbnail do garimpo ai."
 ---
 
