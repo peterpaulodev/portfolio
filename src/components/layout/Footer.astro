@@ -2,6 +2,7 @@
 import Social from "../ui/Social.astro";
 import { Icon } from "astro-icon/components";
 import { getCollection } from "astro:content";
+import Logo from "../ui/Logo.astro";
 
 const [staticData] = await getCollection("staticData");
 const {
@@ -33,7 +34,7 @@ const {
     >
       <a href="/" aria-label="Return to homepage">
         <!-- This icon represents the logo -->
-        <Icon name="logo" aria-hidden="true" />
+        <Logo />
       </a>
     </div>
     <div class="text-center">
@@ -43,7 +44,7 @@ const {
         aria-label="About the website development"
         ><Icon name="code" aria-hidden="true" /> Desenvolvido por <strong
           >{alias}</strong
-        >, com Astro</a
+        > utilizando Astro</a
       >
     </div>
     <div
@@ -60,11 +61,6 @@ const {
         link={instagram}
         iconName={instagramIconName}
         label={`Visit ${alias} on Instagram`}
-      />
-      <Social
-        link={youtube}
-        iconName={youtubeIconName}
-        label={`Visit ${alias} on YouTube`}
       />
       <Social
         link={github}
