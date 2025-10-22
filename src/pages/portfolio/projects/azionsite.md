@@ -1,9 +1,9 @@
 ---
 layout:  /src/layouts/ProjectLayout.astro
 title: 'Azion Site'
-pubDate: 2025-10-22
+pubDate: 2025-08-22
 description: '🌐 Interface de gerenciamento centralizada para a plataforma de Edge Computing da Azion, permitindo configuração, implantação e monitoramento de aplicações na borda da rede.'
-languages: ["vue", "javascript", "tailwind", "edge-computing", "serverless"]
+languages: ["vue", "javascript", "tailwind", "react", "astro", "git"]
 image:
   url: "/images/projects/azionsite.png"
   alt: "Thumbnail do Azion Site."

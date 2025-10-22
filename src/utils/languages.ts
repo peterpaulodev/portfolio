@@ -142,6 +142,10 @@ export const languages: Record<string, Language> = {
     name: "Vue.js",
     iconName: "vue",
   },
+  cypress: {
+    name: "Cypress",
+    iconName: "cypress",
+  },
 };
 
 export const getLanguage = (lang: string): Language => {

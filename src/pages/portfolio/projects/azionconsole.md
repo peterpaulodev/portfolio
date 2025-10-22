@@ -1,9 +1,9 @@
 ---
 layout:  /src/layouts/ProjectLayout.astro
 title: 'Azion Console'
-pubDate: 2025-10-22
+pubDate: 2025-08-10
 description: '🌐 Interface de gerenciamento centralizada para a plataforma de Edge Computing da Azion, permitindo configuração, implantação e monitoramento de aplicações na borda da rede.'
-languages: ["vue", "javascript", "tailwind", "edge-computing", "serverless"]
+languages: ["vue", "javascript", "ts", "tailwind", "aws", "postgresql", "cypress", "jest", "vitest", "git"]
 image:
   url: "/images/projects/azionconsole.png"
   alt: "Thumbnail do Azion Console."
