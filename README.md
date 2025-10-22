@@ -5,7 +5,7 @@
 
 ## 👋 Bem-vindo ao Meu Portfólio
 
-Olá! Meu nome é Peterson Almeida, sou um Desenvolvedor Frontend apaixonado por criar experiências digitais incríveis. Este é o repositório do meu portfólio profissional, onde compartilho meus projetos, habilidades e experiências.
+Olá! Meu nome é Peterson Almeida, sou um Software Engineer apaixonado por criar experiências digitais incríveis. Este é o repositório do meu portfólio profissional, onde compartilho meus projetos, habilidades e experiências.
 
 ## 🚀 Sobre o Projeto
 
@@ -25,14 +25,6 @@ Este portfólio foi desenvolvido com as mais recentes tecnologias web para ofere
 - **PrismJS** - Destaque de sintaxe para blocos de código
 - **Astro Icon** - Sistema de ícones otimizado
 - **Vercel Speed Insights** - Monitoramento de desempenho
-
-## 🎯 Experiência Profissional
-
-### 🏢 Azion Technologies
-**Desenvolvedor Frontend** | 2022 - 2025
-- Desenvolvimento e manutenção do Azion Console, utilizando Vue.js e TypeScript
-- Implementação de componentes reutilizáveis e otimização de performance
-- Trabalho em equipe com metodologias ágeis (Scrum/Kanban)
 
 ### 💼 Projetos Pessoais
 - Desenvolvimento de aplicações web modernas e responsivas
@@ -95,9 +87,9 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ## 📞 Contato
 
-- **Email**: [seu-email@exemplo.com](mailto:seu-email@exemplo.com)
-- **LinkedIn**: [linkedin.com/in/seu-perfil](https://linkedin.com/in/seu-perfil)
-- **GitHub**: [github.com/seu-usuario](https://github.com/seu-usuario)
+- **Email**: [peterpaulodev@gmail.com](mailto:peterpaulodev@gmail.com)
+- **LinkedIn**: [linkedin.com/in/peterpaulodev](https://linkedin.com/in/peterson-paulo-marques)
+- **GitHub**: [github.com/peterpaulodev](https://github.com/peterpaulodev)
 
 ## 🙏 Agradecimentos
 
