@@ -2,7 +2,7 @@
 layout:  /src/layouts/ProjectLayout.astro
 title: 'Azion Site'
 pubDate: 2025-08-22
-description: '🌐 O principal site corporativo da Azion (www.azion.com), servindo como o portal central de marketing, vendas e documentação técnica para sua plataforma de Edge Computing. O site demonstra a própria tecnologia da empresa, sendo focado em alta performance, segurança global e na atração de clientes e desenvolvedores.'
+description: '🌐 O principal site corporativo da Azion (www.azion.com), servindo como o portal central de marketing, vendas e documentação técnica para sua plataforma de Edge Computing.'
 languages: ["vue", "javascript", "tailwind", "react", "astro", "git"]
 image:
   url: "/images/projects/azionsite.png"
