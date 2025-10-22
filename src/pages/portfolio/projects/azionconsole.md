@@ -13,6 +13,8 @@ O **Azion Console** é a interface de gerenciamento centralizada desenvolvida pa
 
 Construído como uma interface web sofisticada, o Console unifica o controle sobre produtos poderosos como Edge Functions, Edge Firewall e Data Stream. A Azion também oferece o Console Kit, baseado em Vue.js, para personalização da interface.
 
+**Minha atuação:** Como Engenheiro de Software Frontend na Azion, fui responsável por desenvolver e manter componentes críticos do Console, garantindo uma experiência de usuário fluida e responsiva. Trabalhei diretamente com Vue.js e TypeScript para implementar novas funcionalidades, melhorar a performance e garantir a acessibilidade da plataforma. Participei ativamente de decisões de arquitetura e implementação de padrões de código, além de contribuir para a evolução do design system interno.
+
 ## 🧩 Características
 
 - Gerenciamento centralizado da plataforma de Edge

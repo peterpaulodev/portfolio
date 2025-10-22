@@ -12,6 +12,8 @@ O **Site da Azion** (www.azion.com) é o principal ponto de presença digital e 
 
 Ele serve como o hub central para clientes, desenvolvedores, parceiros e investidores encontrarem informações sobre produtos, preços, casos de uso e guias técnicos.
 
+**Minha atuação:** Como Engenheiro de Software Frontend na Azion, participei ativamente do desenvolvimento de componentes e páginas do site institucional, utilizando Vue.js e React para criar interfaces modernas e interativas. Trabalhei em estreita colaboração com as equipes de design e produto para implementar um design system consistente, garantindo uma experiência de usuário coesa em toda a plataforma. Minhas responsabilidades incluíram otimização de performance, garantia de acessibilidade e desenvolvimento de componentes reutilizáveis que aceleraram o ciclo de desenvolvimento.
+
 ## 🧩 Características
 
 - Design corporativo focado em clareza e velocidade de carregamento
